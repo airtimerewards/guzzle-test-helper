@@ -2,7 +2,7 @@
     "name": "airtimerewards/guzzle-test-helper",
     "description": "Helper for testing guzzle requests.",
     "minimum-stability": "stable",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Rick Ogden",
