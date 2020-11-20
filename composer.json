@@ -1,0 +1,40 @@
+{
+    "name": "airtimerewards/guzzle-test-helper",
+    "description": "Helper for testing guzzle requests.",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Rick Ogden",
+            "email": "rick@airtimerewards.com"
+        }
+    ],
+    "config": {
+        "process-timeout": 0,
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "AirtimeRewards\\GuzzleTestHelper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AirtimeRewards\\GuzzleTestHelper\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.3",
+        "guzzlehttp/guzzle": "^6.0 || ^7.0"
+    },
+    "require-dev": {
+        "alexeyshockov/guzzle-psalm-plugin": "^0.2.1",
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "phpunit/phpunit": "^9.1",
+        "roave/security-advisories": "dev-master",
+        "vimeo/psalm": "^3.11"
+    }
+}
